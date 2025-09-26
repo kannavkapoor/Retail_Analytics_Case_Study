@@ -1,0 +1,65 @@
+# 🛍️ Retail Analytics Case Study (MySQL Workbench 8.0)
+
+This project presents an **end-to-end Retail Analytics Case Study** built using **MySQL Workbench 8.0**, focusing on **data cleaning, customer segmentation, product performance analysis**, and **behavioral insights**.  
+The goal is to help retail businesses **understand customer behavior**, **identify key revenue drivers**, and **support data-driven decision-making**.
+
+---
+
+## 📁 Project Files
+----------------------------------------------------------------------------------------------
+| File                                  | Description                                        |
+|-------------------------------------- |----------------------------------------------------|
+| 🧠 `retail_Analytics_case_study.sql` | Full SQL script (cleaning, analysis, segmentation) |
+| 📘 `RETAIL ANALYTICS CASE STUDY.pdf` | Complete project report with queries & insights    |
+---------------------------------------------------------------------------------------------
+---
+
+## 🧹 Data Cleaning
+- Treated **NULL** and blank values  
+- Removed **duplicates** using `ROW_NUMBER()` window function  
+- Detected & handled **outliers** using **Tukey’s IQR** and **Z-Score**  
+- Ensured referential integrity between tables  
+
+---
+
+## 📊 Analyses Performed
+
+### 🔸 Product Performance
+- Calculated **total sales** per product  
+- Identified **Top 10%** and **Bottom 10%** performers for inventory & marketing  
+
+### 🔸 Customer Segmentation
+- **Demographic:** Age (0–18, 18–45, 45+)  
+- **Geographic:** Based on `location`  
+- **Gender-based:** Purchase distribution  
+
+### 🔸 Customer Behavior
+- **One-time Buyers** vs **Repeat Users**  
+- **Active Customers:** ≥5 purchases in last 3 months  
+- **Churn-Risk:** No purchase in last 90 days  
+- **Premium/VIP Customers:** Top 10% by spend & frequency  
+
+---
+
+## 💡 Key Insights
+- **95% repeat customers** → strong loyalty  
+- **Top 10% products** drive majority revenue (Pareto Principle)  
+- **Churn-risk segment** identified for reactivation  
+
+---
+
+## 📈 KPIs
+- Average Order Value (AOV)  
+- Average Quantity Purchased  
+- Customer Retention & Churn Rate  
+
+---
+
+## 🧰 Tools & Concepts
+**MySQL Workbench 8.0**, **SQL**, **CTEs**, **Window Functions**, **RFM Analysis**, **Data Cleaning**, **Outlier Detection**
+
+---
+
+## 👤 Author
+**Kannav Kapoor**  
+🔗 [LinkedIn](https://linkedin.com/) | ✉️ [Email](mailto:your-email@example.com)
